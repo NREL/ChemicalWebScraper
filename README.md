@@ -4,7 +4,7 @@ Written by: Lawrence Chen
 
 https://docs.google.com/document/d/1M1hDcaXNH4CMZ1qvaVwoN1mmEF_xYIqouQNwlLTX7Cg/edit#heading=h.gs5byqp2yw
 
-Setup
+Setup:
 The code requires around 1 hour for 33 chemicals. It is important that the computer that is running the code stays on for the duration of this time. Therefore, alterations to screen saver time settings may be necessary to ensure the code doesn’t stop running. 
 Downloads: 
 https://googlechromelabs.github.io/chrome-for-testing/ Download Chromedriver using the corresponding zip file below
@@ -12,14 +12,14 @@ This code uses Jupyter Notebook, Python.
 Python packages used: pandas, numpy, selenium, webdriver_manager, datetime, requests, re, time, random, math, babel
 Note: The code will open browsers up, such that multiple chrome tabs will open. Headless browser (meaning no chrome tabs will be seen) is an option, but will take significantly longer and will be less reliable. 
 
-Code Summary
+Code Summary:
 (Code Notebook) takes in an excel file that contains a sheet currently labeled “search_terms” and within that sheet has a column containing the list of chemicals you want to pull results from. The cell creates search terms that can be inputted into google search.
 Alternative: Define a list of chemical search terms labeled search_terms_list.
 Generates a tuple of website links to scrape from as well as the corresponding search term that was used to find that site.
 Scrapes from all the sites using helper functions defined previously. A dataset is produced.
 Dataset is modified and ready for analysis. 
 
-Column Explanations
+Column Explanations:
 Final Product: final_df Dataframe.
 Some columns includes are not useful (e.g. Price, as USD_Price standardizes for currencies) but are intermediary columns used to produce other columns in the dataset. They are not bolded and labeled with (I), feel free to filter them out when modifying this dataset.
 Chemical Name: as titled.

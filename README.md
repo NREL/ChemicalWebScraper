@@ -7,6 +7,7 @@ https://docs.google.com/document/d/1M1hDcaXNH4CMZ1qvaVwoN1mmEF_xYIqouQNwlLTX7Cg/
 
 Setup:
 The code requires around 1 hour for 33 chemicals. It is important that the computer that is running the code stays on for the duration of this time. Therefore, alterations to screen saver time settings may be necessary to ensure the code doesn’t stop running. 
+
 Downloads: 
 https://googlechromelabs.github.io/chrome-for-testing/ Download Chromedriver using the corresponding zip file below
 This code uses Jupyter Notebook, Python.

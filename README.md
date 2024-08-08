@@ -1,5 +1,7 @@
 Web-Scraping Tool README
 
+Main file: web_scrape copy.ipynb
+
 National Renewable Energy Laboratory, DOE SULI Program
 Written by: Lawrence Chen
 

@@ -2,7 +2,7 @@ Web-Scraping Tool README
 
 Main file: web_scrape copy.ipynb
 
-National Renewable Energy Laboratory, DOE SULI Program
+National Renewable Energy Laboratory, DOE SULI Program (SWR-24-105)
 Written by: Lawrence Chen
 
 https://docs.google.com/document/d/1M1hDcaXNH4CMZ1qvaVwoN1mmEF_xYIqouQNwlLTX7Cg/edit#heading=h.gs5byqp2yw
